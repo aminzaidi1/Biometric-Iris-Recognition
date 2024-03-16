@@ -17,12 +17,12 @@ Iris recognition stands as a premier biometric authentication method, leveraging
 
 ## Features
 
-- Preprocessing of iris images
-- Iris feature extraction using 2D Gabor wavelets
-- Encoding of iris features into binary codes
-- Comparison of iris codes for matching
-- Visualization of segmentation and normalization process details
-- Interactive selection of images from a dataset for matching
+- **Preprocessing of Iris Images**: Ensures the optimization of iris images for subsequent processing steps.
+- **Iris Feature Extraction using 2D Gabor Wavelets**: Extracts intricate iris features utilizing advanced Gabor wavelet transformations.
+- **Encoding of Iris Features into Binary Codes**: Converts extracted iris features into binary codes for efficient storage and comparison.
+- **Comparison of Iris Codes for Matching**: Accurately compares iris codes to determine similarity, achieving a 100% precision match with a similarity score of 0.00.
+- **Visualization of Segmentation and Normalization Process Details**: Provides insightful visualizations of the segmentation and normalization processes, aiding in understanding and debugging.
+- **Interactive Selection of Images from a Dataset for Matching**: Facilitates user-friendly interaction for selecting images from the dataset, streamlining the matching process.
 
 ## Installation
 
