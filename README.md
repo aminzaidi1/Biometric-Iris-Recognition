@@ -13,7 +13,7 @@ This project implements an iris recognition system using Python and OpenCV. It p
 
 ## Introduction
 
-Iris recognition is a biometric authentication method that uses the unique patterns in the iris of the human eye for identification. This project aims to develop an iris recognition system that can be used for various applications such as access control, security systems, and personal identification.
+Iris recognition stands as a premier biometric authentication method, leveraging the distinctive patterns within the human iris for identification. This innovative project endeavors to craft a robust iris recognition system primed for diverse applications, including access control, security systems, and personal identification. Harnessing advanced image processing techniques and machine learning algorithms, the system promises heightened security and seamless user authentication, positioning it as a cornerstone in the realm of biometric authentication technologies.
 
 ## Features
 
@@ -29,7 +29,7 @@ Iris recognition is a biometric authentication method that uses the unique patte
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/iris-recognition.git
+   git clone https://github.com/aminzaidi1/iris-recognition.git
 
 2. Navigate to the project directory:
 
@@ -52,8 +52,24 @@ Iris recognition is a biometric authentication method that uses the unique patte
 
 ## Dataset
 
-The dataset folder contains images of iris samples used for testing the iris recognition system. Make sure to organize the dataset properly and ensure that image filenames follow the specified naming convention XXX_Y_S. XXX being individual_id, Y being session_id, and S being image_id. For example: 007_1_3.
+This project utilizes the CASIA-IrisV1 dataset, a widely used dataset for iris recognition research. The CASIA-IrisV1 dataset provides a comprehensive collection of iris images. It consists of 7 iris images of 108 individuals from 2 sessions. 3 images from the 1st session and 4 from the 2nd session.
+
+**Download the CASIA-IrisV1 dataset**: [CASIA-IrisV1](http://biometrics.idealtest.org/downloadDB.do?id=4&subset=1#/)
+
+Ensure that you have the necessary permissions to use the dataset in accordance with its licensing terms.
+
+### Dataset Organization
+
+The dataset folder contains images of iris samples used for testing the iris recognition system. To ensure smooth functioning of the system, it's crucial to organize the dataset properly and adhere to a specific naming convention for image filenames.
+
+1. **Directory Structure**: Ensure that all iris images are stored within the `dataset` folder.
+2. **Naming Convention**: Use the following naming convention for image filenames: `XXX_S_Y`, where:
+   - `XXX` represents the individual ID (e.g., 007).
+   - `S` represents the session ID (e.g., 1 or 2).
+   - `Y` represents the image ID (e.g., 1, 2, 3, etc.).
+
+Example: For an individual with ID 007, session 1, and image 3, the filename should be `007_1_3`.
 
 ## Credits
 
-This project was developed by Amin Zaidi for the Capstone Project of my Course of Data Science & Artificial Intelligence by Boston Institute of Analytics(BIA).
+This project was developed by Amin Zaidi for the Capstone Project of my Course of Data Science & Artificial Intelligence by Boston Institute of Analytics (BIA).
