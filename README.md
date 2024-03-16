@@ -10,7 +10,6 @@ This project implements an iris recognition system using Python and OpenCV. It p
 - [Usage](#usage)
 - [Dataset](#dataset)
 - [Credits](#credits)
-- [License](#license)
 
 ## Introduction
 
